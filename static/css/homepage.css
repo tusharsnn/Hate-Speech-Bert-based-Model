@@ -1,0 +1,115 @@
+.container
+{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+
+
+*
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.red
+{
+    color: rgb(255, 83, 83);
+}
+
+.green
+{
+    color: rgb(4, 252, 4);
+}
+
+header
+{
+    background: #2A4B7C;
+    z-index:2;
+    top : 0px;
+    position: sticky ;
+    border-bottom : 3px rgb(255, 83, 83) solid; 
+    font-size: 1em;
+    min-height : 70px;
+    text-transform: uppercase;
+}
+
+h1
+{
+    padding: 0 10 0 10;
+    float: left;
+    color: rgb(221, 221, 221);
+}
+
+.tabs
+{
+    float: right;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+
+a:hover{
+    color: rgb(255, 118, 118);
+}
+
+ul{
+    padding-top: 15px;
+}
+li{
+    font-weight: bolder;
+    display: inline;
+    padding: 0px 20 0 20;
+}
+
+#middle 
+{
+    background: url("img/Australian-Trip-Is-Good-for-Your-Mental-Health-1.jpg") no-repeat 0 -400px;
+    min-height: 640px;
+}
+
+
+
+.logindetails a 
+{   text-align: center;
+    font-size: 30px;
+    border: 2px rgb(255, 137, 137) solid;
+    margin:20px;
+    border-radius: 30px;
+    color: rgb(221, 221, 221); 
+    background-color: rgba(0, 83, 156, 0.918); 
+    padding: 10px 40px 10px 40px;
+}
+
+.logindetails a:hover
+{
+    background:rgb(3, 67, 122);
+}
+a label
+{
+    padding: 10px 0px 10px 10px;
+    
+}
+
+
+
+@media(max-width: 768px)
+{
+    .container{
+        width:100%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    header li
+    {
+        float: none;
+        text-align: center;
+        display: inline;
+    }
+}

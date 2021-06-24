@@ -1,0 +1,48 @@
+section
+{
+    background: url("img/beaches_video.jpg") no-repeat -300px -100px;
+    min-height: 640px;
+    text-align: center;
+}
+
+.login-details
+{
+    position: relative;
+    min-height: 50%;
+    text-align: center;
+}
+
+form
+{
+    background: rgba(0, 83, 156, 0.76);
+    text-align: center;
+    padding : 5%;
+    border-radius: 500px;
+    margin-left:30%;
+    margin-right:30%;
+}
+input:hover
+{
+    background:rgba(43, 158, 252, 0.664);  
+}
+
+section p
+{
+    color: rgb(255, 255, 255);
+    text-transform:uppercase;
+}
+
+.login-details input,textarea
+{
+    border: 2px rgb(255, 137, 137) solid;
+    border-radius: 10px;
+    min-width: 100px;
+    margin: 20px 10px;
+    padding: 0 20px;
+    height: 30px;
+    
+}
+textarea
+{
+    height: 100px;
+}
